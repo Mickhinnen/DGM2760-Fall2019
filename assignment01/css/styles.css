@@ -1,0 +1,44 @@
+body h1,h2,h3,h4,h5,h6,ul,li {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+header {
+    max-width: 960px;
+    margin: 0 auto;
+    background-image: url("../images/bedroom.jpg");
+    height: 300px;
+   /* border: 1px solid red; */
+}
+
+header h1 {
+    color: #361c03;
+    margin: 10px;
+    /*border: 1px solid green;*/
+}
+
+header h2 {
+    color: #361c03;
+    margin: 20px;
+}
+
+main, footer{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+main h2 {
+    color: #0400df; 
+    background-color: #0f6369;
+    text-indent: 100px;
+    
+}
+ul {
+    color: blue;
+   
+}
+footer {
+    color: green;
+    background-color: #0f6369;
+    text-align: center;
+}

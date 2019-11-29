@@ -1,0 +1,30 @@
+body, header, footer, h1, h2, ul, li {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+header {
+    height: 300px;
+    border: 10px solid thistle;
+    background-image: url("../images/GGBackground.jpg");
+    background-color: gray;
+
+}
+header h1 {
+    color: green;
+    font-size: 50px;
+}
+
+Header h2 {
+    color: lightseagreen;
+    font-size: 40px;
+}
+body {
+    color: ghostwhite;
+    background-color: blueviolet;
+}
+footer {
+    color: rgb(141, 29, 221);
+    background-color: black;
+    text-align: center;
+}
