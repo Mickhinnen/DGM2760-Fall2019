@@ -23,6 +23,12 @@ body {
     color: ghostwhite;
     background-color: blueviolet;
 }
+main article {
+    background-color: aqua;
+    
+   /* display: grid;*/
+    grid-auto-rows: auto;
+}
 footer {
     color: rgb(141, 29, 221);
     background-color: black;
