@@ -20,13 +20,14 @@ Header h2 {
     font-size: 40px;
 }
 body {
-    color: ghostwhite;
+    color: rgb(0, 0, 255);
     background-color: blueviolet;
 }
 main article {
+    float: left;
     background-color: aqua;
-    
-   /* display: grid;*/
+    height: 400px;
+    width: auto;
     grid-auto-rows: auto;
 }
 footer {

@@ -22,6 +22,7 @@ function evalGuess() {
     if (gamerGuess == correctNumber) {
         console.log('gamerGuess is equal to correctNumber')
         feedback.innerText = 'Correct!'
+        giveAward()
         
     } else if (gamerGuess > correctNumber && gamerGuess < 16) {
         feedback.innerText = 'too high, try again.'
@@ -47,14 +48,14 @@ function giveAward() {
         case 4:
         case 5:
         case 6:
-            console.log('Yellow ribon for you')
+            console.log('Yellow ribbon for you')
             break
         case 7:
             console.log('White ribbon for you')
     }
 
-    const awardImage = document.createElement('img') //creates a <img> element
-    awardImage.setAttribute('src', '../images/award-2648043_640.png')
+    const awardImage = document.createElement('img') //create a <img> element
+    awardImage.setAttribute('src', '../images/award.png')
     const ribbon = document.querySelector('#ribbon')
 
     ribbon.appendChild(awardImage)
