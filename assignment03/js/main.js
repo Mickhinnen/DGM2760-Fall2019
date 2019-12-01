@@ -39,24 +39,43 @@ function evalGuess() {
 
 function giveAward() {
     console.log('Congratulations!')
+    let imagePath = '#'
     switch (totalGuesses) {
         case 1:
         case 2:
         case 3:
-            console.log('Blue ribbon for you')
+            imagePath = 'images/award1.png'
             break
         case 4:
         case 5:
         case 6:
-            console.log('Yellow ribbon for you')
+            imagePath = 'images/award2.png'
             break
         case 7:
-            console.log('White ribbon for you')
+        case 8:
+        case 9:
+            imagePath = 'images/award3.png'
+            break
+        case 10:
+            feedback.innerText = 'Too many attempts, please refresh page'
+            imagePath = 'images/award3.png'
+            break
     }
 
     const awardImage = document.createElement('img') //create a <img> element
-    awardImage.setAttribute('src', '../images/award.png')
+    awardImage.setAttribute('src', imagePath)
+    const newAward = document.createElement('img')
+    newAward.setAttribute('src', imagePath)
     const ribbon = document.querySelector('#ribbon')
 
-    ribbon.appendChild(awardImage)
+  //  ribbon.appendChild(awardImage)
+
+    if (ribbon.hasChildNodes() == true) {
+     //   const newAward = document.createElement('img')
+     //   newAward.setAttribute('src', imagePath)
+        ribbon.removeChild(awardImage)
+        ribbon.appendChild(newAward)
+    } else {
+        ribbon.appendChild(awardImage)
+    } //I tried for hrs, mdn wasn't helpfull, other src were confusing
 }

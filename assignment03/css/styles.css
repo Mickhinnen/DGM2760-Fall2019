@@ -20,16 +20,27 @@ Header h2 {
     font-size: 40px;
 }
 body {
-    color: rgb(0, 0, 255);
+    color: rgb(198, 198, 241);
     background-color: blueviolet;
 }
-main article {
-    float: left;
+main article  { float: left; }
+main article div {
     background-color: aqua;
     height: 400px;
-    width: auto;
-    grid-auto-rows: auto;
+    padding: 12px;
 }
+main article.a1 { width: 15%;} 
+main article.a2 { width: 15%;}
+main article.a3 { width: 40%;}
+main article.a4 { width: 30%;}
+main article.a2 div {text-align: center; font-size: 7rem; color: black;}
+main article.a3 div { text-align: center; font-size: 3rem; color: black;}
+img {max-width: 100%; max-height: 100%;} 
+
+main article.a1 input {
+    width: 90%;
+}
+
 footer {
     color: rgb(141, 29, 221);
     background-color: black;
