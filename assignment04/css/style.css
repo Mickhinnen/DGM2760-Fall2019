@@ -1,0 +1,21 @@
+body, header, footer, h1, h2, ul, li {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+header {
+    height: 300px;
+    border: 10px solid red;
+    /*background image*/
+}
+
+header h1 {
+    color: chartreuse;
+    font-size: 45px;
+}
+
+body {
+    background-color: cornflowerblue;
+    color: gold;
+}
+

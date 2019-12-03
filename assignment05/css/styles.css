@@ -1,0 +1,22 @@
+body, header, h1, h2, ul, li {
+    max-width: 960px;
+    margin: auto;
+}
+
+header {
+    height: 300px;
+}
+
+body {
+    background-color: brown;
+}
+
+ul {
+    color: darkmagenta;
+    background-color: cyan;
+}
+footer {
+    color: greenyellow;
+    background-color: grey;
+    text-align: center;
+}
