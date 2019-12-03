@@ -4,16 +4,29 @@ body, header, h1, h2, ul, li {
 }
 
 header {
+    background-color: green;
+    border: 10px chocolate;
     height: 300px;
 }
 
-body {
+main {
+    max-width: 960px;
     background-color: brown;
 }
 
 ul {
     color: darkmagenta;
     background-color: cyan;
+}
+
+button {
+    display: block;
+}
+
+aside {
+    float: right;
+    margin: 0 1.5%;
+    width: 30%;
 }
 footer {
     color: greenyellow;
