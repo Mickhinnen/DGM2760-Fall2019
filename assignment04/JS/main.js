@@ -185,6 +185,7 @@ function getYourFate(fate) {
         }
         return message
 }
+//look up why this is needed twice
 let month = getRandomIntInclusive(1, 12)
 const monthName = getMonthName(month)
 let date = getRandomIntInclusive(1, 30)
@@ -196,4 +197,4 @@ const yourFortune = `On ${monthName} ${theDay}, ${yourFate}`
 
 document.querySelector('#fortune').innerText = `${yourFortune}`
 
-console.log(monthName)
+// console.log(monthName) tis to test if it works 
