@@ -6,8 +6,10 @@ body, header, footer, h1, h2, ul, li {
 header {
     height: 300px;
     border: 10px solid red;
-    /*background image*/
+    background-image: url(../images/fortune.jpg);
+    
 }
+header img {max-width: 100%; max-height: 100%;} 
 
 header h1 {
     color: chartreuse;
