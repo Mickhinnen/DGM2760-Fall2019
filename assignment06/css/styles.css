@@ -1,0 +1,28 @@
+ body, header, h1, h2, main, ul, li {
+     max-width: 960px;
+     margin: auto;
+ }
+ body {
+     color: cadetblue;
+     background-color: darkorchid;
+ }
+ 
+ header {
+     /*background-image: url() ;*/
+     border: 15px darkslateblue;
+     height: 300px;
+ }
+
+ main {
+     background-color: indigo;
+ }
+ main article {
+     float: left;
+     width: 33%;
+     height: 10%;
+ }
+
+ footer {
+     color: mediumorchid;
+     background-color: #550369;
+ }
