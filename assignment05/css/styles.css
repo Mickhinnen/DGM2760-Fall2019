@@ -2,34 +2,62 @@ body, header, h1, h2, ul, li {
     max-width: 960px;
     margin: auto;
 }
-
+body {
+    color: crimson;
+    background-color: #84fbff;
+}
 header {
-    background-color: green;
+    background-image: url(../images/arborTree.png);
     border: 10px chocolate;
     height: 300px;
 }
 
 main {
     max-width: 960px;
-    background-color: brown;
+    background-color: greenyellow;
+}
+main h2 {
+    color: dodgerblue;
+    /*clear: left;*/
 }
 
+main article {
+    float: left;
+    width: 60%;
+}
+main aside {
+    float: right;
+    width: 40%;
+}
 ul {
+    /*display: block;*/
     color: darkmagenta;
-    background-color: cyan;
 }
 
-button {
+
+main button {
     display: block;
 }
 
+/* took too long to realize conflicting
 aside {
+    padding-left: 5%;
+    padding-right: 5%;
+    margin:  1.5%;
+    width: 20%;
     float: right;
-    margin: 0 1.5%;
-    width: 30%;
-}
+    background-color: cadetblue;
+}*/
+
+main div#displayResults span {
+     color: crimson;
+     background-color: beige; 
+    }
+main div#error { color: rgb(255, 123, 0); width: 40%; background-color: rgb(85, 23, 0);}
+
 footer {
     color: greenyellow;
     background-color: grey;
     text-align: center;
+    clear: both;
 }
