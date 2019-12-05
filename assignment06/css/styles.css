@@ -6,6 +6,11 @@
      color: cadetblue;
      background-color: darkorchid;
  }
+
+ button {
+     display: block;
+     clear: both;
+ }
  
  header {
      /*background-image: url() ;*/
@@ -19,10 +24,15 @@
  main article {
      float: left;
      width: 33%;
-     height: 10%;
+     height: 30px;
  }
-
+main div {
+    color: midnightblue;
+    background-color: mediumturquoise;
+}
  footer {
      color: mediumorchid;
      background-color: #550369;
+     text-align: center;
+     clear: both;
  }
