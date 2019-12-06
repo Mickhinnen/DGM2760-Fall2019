@@ -23,8 +23,9 @@
  }
  main article {
      float: left;
-     width: 33%;
+     width: 30%;
      height: 30px;
+     padding: 5%;
  }
 main div {
     color: midnightblue;
