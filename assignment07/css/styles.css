@@ -1,0 +1,10 @@
+body, header, footer, h1, h2, ul, li {
+    max-width: 960px;
+    margin: auto;
+}
+header {
+    border: 15px darkgoldenrod;
+}
+main article {
+    display: block;
+}
