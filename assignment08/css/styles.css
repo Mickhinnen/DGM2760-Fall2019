@@ -1,6 +1,7 @@
 body {
     max-width: 960;
     margin: auto;
+    color: black;
 }
 
 header {
@@ -16,4 +17,13 @@ button {
     display: block;
     width: 100%;
     height: 4%;
+}
+div {
+    height: 4%;
+}
+
+footer {
+    text-align: center;
+    color: blanchedalmond;
+    background-color: black;
 }
