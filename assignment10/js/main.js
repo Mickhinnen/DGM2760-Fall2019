@@ -1,4 +1,4 @@
-functin duplicateMenu() {
+function duplicateMenu() {
   // get all of the anchor elements from the top menu // <a> is anchor
  let topList = document.querySelectorAll('ul#primaryNavigation li a') //tech a node list has array like behavior
 
