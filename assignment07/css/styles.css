@@ -5,7 +5,7 @@ body, header, footer, h1, h2, ul, li {
 header {
     height: 300px;
     border: 15px darkgoldenrod;
-    background-color: darkgreen;
+    background-image: url(../iimages/pizza.jpg);
 }
 
 button {
