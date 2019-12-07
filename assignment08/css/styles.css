@@ -1,12 +1,12 @@
 body {
     max-width: 960;
     margin: auto;
-    color: black;
 }
 
 header {
     color: cyan;
     background-color: darkblue;
+    border: 10px black;
 }
 main {
     color: darkslateblue;
@@ -20,6 +20,12 @@ button {
 }
 div {
     height: 4%;
+    color: black;
+    background-color: cadetblue;
+}
+
+div.feedback {
+    background-color: cornflowerblue;
 }
 
 footer {
