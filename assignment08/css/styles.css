@@ -1,15 +1,19 @@
 body {
     max-width: 960;
-    margin: auto;
+    margin: 0 auto;
 }
 
 header {
-    color: cyan;
-    background-color: darkblue;
+    height: 300px;
+    color: rgb(255, 255, 255);
+    background-image: url(../images/tomb.jpg);
     border: 10px black;
 }
+
+header h1 {margin-left: 3%; font-size: 50px; text-align: left;}
+header h2 {margin-left: 5%; font-size: 35px; text-align: left;}
 main {
-    color: darkslateblue;
+    color: rgb(177, 169, 230);
     background-color: dimgrey;
 }
 
@@ -19,14 +23,19 @@ button {
     height: 4%;
 }
 div {
+    font-size: 20px;
     height: 4%;
     color: black;
     background-color: cadetblue;
 }
 
 div.feedback {
+    font-size: 25px;
+    height: 5%;
     background-color: cornflowerblue;
 }
+
+ul {list-style-type: square;}
 
 footer {
     text-align: center;
