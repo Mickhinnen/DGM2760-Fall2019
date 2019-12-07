@@ -1,0 +1,19 @@
+body {
+    max-width: 960;
+    margin: auto;
+}
+
+header {
+    color: cyan;
+    background-color: darkblue;
+}
+main {
+    color: darkslateblue;
+    background-color: dimgrey;
+}
+
+button {
+    display: block;
+    width: 100%;
+    height: 4%;
+}
