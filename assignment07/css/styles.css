@@ -8,6 +8,10 @@ header {
     background-image: url(../iimages/pizza.jpg);
 }
 
+header h1, header h2{
+    color: crimson;
+}
+
 button {
     background-color: greenyellow;
     border-radius: 12px;
