@@ -12,9 +12,10 @@ function duplicateMenu() {
      let newLink = document.createElement('a')
      newLink.setAttribute('href', meanuItem.getAttribute('href'))
      // 'copy' the textContent from upper menu to new menu
-     let newText = document.getElementById('#primaryNavigation').textContent
+     //let newText = document.getElementById('#primaryNavigation').textContent NOTHING!!!WHY!!
+     newLink.textContent = meanuItem.textContent
      // append children to make them appear in the DOM
-     newLink.appendChild(newText)
+     //newLink.appendChild(newText)
      newLI.appendChild(newLink)
      newList.appendChild(newLink)
      document.getElementById('#smallNavArea').appendChild(newList) //or smallMenulink
