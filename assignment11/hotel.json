@@ -14,7 +14,7 @@
         "gym": "no",
         "roomTypes": ["Queen", " Double"],
         "address": "1250 Brighton Street",
-        "picture": "../assignment11/images/room2.jpg"
+        "picture": "../images/room2.jpg"
     },
     {
         "name": "Hilton",
@@ -22,7 +22,7 @@
         "gym": "Yes",
         "roomTypes": ["King", " Double"],
         "address": "1335 Loath Street",
-        "picture": "../assignment11/images/room3.jpg"
+        "picture": "../images/room3.jpg"
     }
 ]
 }
