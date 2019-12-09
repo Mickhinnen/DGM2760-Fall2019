@@ -6,7 +6,7 @@
         "gym": "Yes",
         "roomTypes": ["King", "Queen", "Double"],
         "address": "1350 Bread Street",
-        "picture": "room1.peg"
+        "picture": "room1.jpeg"
     },
     {
         "name": "Sheraton",
@@ -14,7 +14,7 @@
         "gym": "no",
         "roomTypes": ["Queen", "Double"],
         "address": "1250 Brighton Street",
-        "picture": "room2.peg"
+        "picture": "room2.jpeg"
     },
     {
         "name": "Hilton",
@@ -22,7 +22,7 @@
         "gym": "Yes",
         "roomTypes": ["King", "Double"],
         "address": "1335 Loath Street",
-        "picture": "room3.peg"
+        "picture": "room3.jpeg"
     }
 ]
 }

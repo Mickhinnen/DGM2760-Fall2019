@@ -2,11 +2,13 @@
                 //make more generic by getAPIData(url)
 async function getHotelData() {
  try {
-    const reponse = await fetch ('../hotel.json')
+    const reponse = await fetch ('../assignment11/hotel.json')
     return await response.json() //return json object
  }   catch (error) {
      console.error(error)
  }
 }
 
-console.log(getHotelData())
+let hotelData = {}
+getHotelData().then(data => hotelData = data)
+console.log(hotelData)
