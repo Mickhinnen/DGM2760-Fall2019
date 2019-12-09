@@ -35,6 +35,8 @@ function hotelInfo(event) {
     document.querySelector('#rooms').textContent = `${hotelChoice.rooms}`
     document.querySelector('#gym').textContent = `${hotelChoice.gym}`
     document.querySelector('#type').textContent = `${hotelChoice.roomTypes}`
-    document.querySelector('#picture') = `${hotelChoice.picture}`
-    Image.setAttribute('src', imagePath)//assignment 3
+    let imagePath = `${hotelChoice.picture}` //apparently order matters, getting closer though broken image instead of no image
+    document.querySelector('#picture').setAttribute('src', imagePath)//assignment 3 google says otherwise, also duh
+    
+   
 }
