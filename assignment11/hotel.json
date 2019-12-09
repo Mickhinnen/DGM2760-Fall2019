@@ -6,7 +6,7 @@
         "gym": "Yes",
         "roomTypes": ["King", " Queen", " Double"],
         "address": "1350 Bread Street",
-        "picture": "../assignment11/images/room1.jpg"
+        "picture": "../images/room1.jpg"
     },
     {
         "name": "Sheraton",
