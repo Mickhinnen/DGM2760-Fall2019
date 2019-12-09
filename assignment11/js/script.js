@@ -14,13 +14,15 @@ getHotelData().then(data => hotelData = data)
 
 //console.log(hotelData)
 // store this in a variable = document.querySelectorAll("a")
-let guestChoice = document.querySelectorAll('a')
+//let guestChoice = document.querySelectorAll("a")
 //use that variable to loop over each element and addEventListener to each one
 //suggested use of forEach
-guestChoice.forEach(hotelChoice => {
-    document.querySelector('#hotels').addEventListener('click', hotelInfo)
-})
-//document.querySelector("#marriott").addEventListener('click', hotelInfo)
+//guestChoice.forEach(chosen => {
+  //  document.querySelector(`#.id`).addEventListener('click', hotelInfo) // #hotels doesn't work
+document.querySelector("#marriott").addEventListener('click', hotelInfo)
+document.querySelector("#sheraton").addEventListener('click', hotelInfo)
+document.querySelector("#hilton").addEventListener('click', hotelInfo)
+//})
 
 function hotelInfo(event) {
     let hotelChoice = hotelData.hotels.find(hotel => {
@@ -34,4 +36,5 @@ function hotelInfo(event) {
     document.querySelector('#gym').textContent = `${hotelChoice.gym}`
     document.querySelector('#type').textContent = `${hotelChoice.roomTypes}`
     document.querySelector('#picture') = `${hotelChoice.picture}`
+    Image.setAttribute('src', imagePath)//assignment 3
 }

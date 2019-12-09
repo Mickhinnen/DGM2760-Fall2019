@@ -1,12 +1,12 @@
 body, header, main, footer, h1, h2, h3, h4, ul, li {max-width: 960px; margin: auto;}
 
 header {
-    /*background image*/
+    background-image: url(../images/hotel-header.jpg);
     border-color: gold;
     border-style: dotted;
     height: 250px;
 }
-
+img { height: 100%; width: 100%;}
 header h1 {
     color: darkblue;
 }
@@ -15,7 +15,11 @@ main h1 {
    color: dimgrey;
    background-color: dodgerblue;
 }
-ul.hotels li {
+a {
+    
+    list-style-type: none;
+    border-radius: 15%;
+    background-color: aqua;
     color: goldenrod;
 }
 footer {
