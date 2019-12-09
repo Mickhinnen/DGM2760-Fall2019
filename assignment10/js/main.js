@@ -18,10 +18,10 @@ function duplicateMenu() {
      //newLink.appendChild(newText)
       newList.appendChild(newLI)
       newLI.appendChild(newLink)
-     
- })
- document.querySelector('#smallNavArea').appendChild(newList)
+      document.querySelector('#smallNavArea').appendChild(newList)
   //or smallMenulink
+ })
+
 }
 
 duplicateMenu()
