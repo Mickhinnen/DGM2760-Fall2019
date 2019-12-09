@@ -72,14 +72,23 @@ document.querySelector('#sortTrees').onclick = () => {
 // string in lower case
 document.querySelector('#lowerTrees').onclick = () => {
     if (trees.length > 0 ) {
+        newtrees = trees.map(tree => tree.toLowerCase())
+        newListTrees()
+     //trees = trees.join().toLowerCase()
+     //trees = trees.split(/\s+/)
+    /*  let treeList = []
+      trees.forEach(tree => {
+          treeList.push(tree.toLowerCase())
+      })*/
      //   trees.map(trees => trees.toLowerCase())
      //   trees.toString().toLowerCase()
      //   trees_tolowercase = trees.map(x=>x.toLowerCase())
      /* I tried so many things and nothing worked. I couldn't find anything on mdn, i even turned 
      to google and youtube and I found nothing that worked. the above noted out are my attempts,
      please point me in the right direction*/
-        ListTrees( trees.map(x=>x.toLowerCase))
-        console.log(trees.toString().toLowerCase())
+        //console.log(trees.length)
+        
+
     } else {
         errorElement.textContent = 'Wood you mind adding some trees so I can work'
     }
