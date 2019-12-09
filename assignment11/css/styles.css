@@ -1,4 +1,7 @@
-body, header, main, footer, h1, h2, h3, h4, ul, li {max-width: 960px; margin: auto;}
+body, header, main, footer, h1, h2, h3, h4 {
+    max-width: 960px; 
+    margin: auto;
+}
 
 header {
     background-image: url(../images/hotel-header.jpg);
@@ -7,21 +10,42 @@ header {
     height: 250px;
 }
 img { height: 100%; width: 100%;}
-header h1 {
-    color: darkblue;
-}
+header h1, header h2 {display: inline; color: darkblue;}
+header h1{font-size: 50px;}
+header h2 {font-size: 35px;}
+main {background-color: slateblue; color: ghostwhite;}
 
 main h1 {
-   color: dimgrey;
-   background-color: dodgerblue;
+   color: dodgerblue;
+   background-color: dimgray;
 }
-a {
-    
+
+ul.hotels li {
+    float: left;
+    display: inline;
     list-style-type: none;
-    border-radius: 15%;
-    background-color: aqua;
-    color: goldenrod;
+    padding: 0;
 }
+li a {
+    border: 1px saddlebrown;
+    border-style: solid;
+    font-size: 20px;
+    max-width: 45px;
+    background-color: #fd0037;
+    color: #ffe8ae;
+    display: inline;
+}
+
+main p {
+    padding-left: 20px;
+    border-radius: 12px;
+    color: rgb(255, 148, 72);
+    max-width: 28%;
+    background-color: purple;
+}
+
 footer {
     text-align: center;
+    background-color: violet;
+    color: darkslateblue;
 }
