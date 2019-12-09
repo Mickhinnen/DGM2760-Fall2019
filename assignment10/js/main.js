@@ -7,19 +7,21 @@ function duplicateMenu() {
 
  // take all of toplist and insert into bottom list, array helper named forEach makes easy
 //              (param => {} )
- topList.forEach(meanuItem => {
+ topList.forEach(menuItem => {
      let newLI = document.createElement('li')
      let newLink = document.createElement('a')
-     newLink.setAttribute('href', meanuItem.getAttribute('href'))
+     newLink.setAttribute('href', menuItem.getAttribute('href'))
      // 'copy' the textContent from upper menu to new menu
      //let newText = document.getElementById('#primaryNavigation').textContent NOTHING!!!WHY!!
-     newLink.textContent = meanuItem.textContent
+     newLink.textContent = menuItem.textContent 
      // append children to make them appear in the DOM
      //newLink.appendChild(newText)
-     newLI.appendChild(newLink)
-     newList.appendChild(newLink)
-     document.getElementById('#smallNavArea').appendChild(newList) //or smallMenulink
+      newList.appendChild(newLI)
+      newLI.appendChild(newLink)
+     
  })
+ document.querySelector('#smallNavArea').appendChild(newList)
+  //or smallMenulink
 }
 
 duplicateMenu()
