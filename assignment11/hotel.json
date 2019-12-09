@@ -4,7 +4,7 @@
         "name": "Marriott",
         "rooms": "35",
         "gym": "Yes",
-        "roomTypes": ["King", "Queen", "Double"],
+        "roomTypes": ["King", " Queen", " Double"],
         "address": "1350 Bread Street",
         "picture": "room1.jpeg"
     },
@@ -12,7 +12,7 @@
         "name": "Sheraton",
         "rooms": "45",
         "gym": "no",
-        "roomTypes": ["Queen", "Double"],
+        "roomTypes": ["Queen", " Double"],
         "address": "1250 Brighton Street",
         "picture": "room2.jpeg"
     },
@@ -20,7 +20,7 @@
         "name": "Hilton",
         "rooms": "25",
         "gym": "Yes",
-        "roomTypes": ["King", "Double"],
+        "roomTypes": ["King", " Double"],
         "address": "1335 Loath Street",
         "picture": "room3.jpeg"
     }
