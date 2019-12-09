@@ -21,7 +21,7 @@ main h1 {
 }
 
 ul.hotels li {
-    float: left;
+   /* float: left;*/
     display: inline;
     list-style-type: none;
     padding: 0;
