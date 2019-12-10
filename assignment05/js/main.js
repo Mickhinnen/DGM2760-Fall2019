@@ -5,6 +5,7 @@ const trees = ['oak', 'pine', 'aspen', 'Bald Cypress']
 const errorElement = document.querySelector('#error')
 const displayResults = document.querySelector('#displayResults')
 
+
 //displayResults.textContent = 'Testing here right now'
 //errorElement.textContent = 'Testing here right now'
 
@@ -14,6 +15,7 @@ const ListTrees = () => {
     //for (i = 0; i < trees.length; i++) { }
     trees.forEach(tree => {
         treeList += `${tree} <br>`
+        
     })
     displayResults.innerHTML = `${treeList} <span>${trees.length} elementslongs</span>`
 }
@@ -72,8 +74,15 @@ document.querySelector('#sortTrees').onclick = () => {
 // string in lower case
 document.querySelector('#lowerTrees').onclick = () => {
     if (trees.length > 0 ) {
-        newtrees = trees.map(tree => tree.toLowerCase())
-        newListTrees()
+        let newTrees = trees.toString() 
+        let treeString = newTrees.toLowerCase()
+        document.getElementById("displayResults").innerHTML = treeString //"trees" doesn't work, or any varient
+        // ListTrees() does nothing when this is active
+
+        //querrySelector doesn't work. elementbyid works but doesn't stick
+        //does order really matter that mutch? move outside it...
+        //   newtrees = trees.map(tree => tree.toLowerCase())
+     //   newListTrees()
      //trees = trees.join().toLowerCase()
      //trees = trees.split(/\s+/)
     /*  let treeList = []
